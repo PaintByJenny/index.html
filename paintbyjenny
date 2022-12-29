@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PaintByJenny</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>PaintByJenny</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#custom-paintings">Custom Paintings</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="home">
+      <h2>Welcome to PaintByJenny</h2>
+      <p>Thank you for visiting my website! I am a professional painter specializing in custom paintings. Take a look around and see if there is anything that catches your eye.</p>
+    </section>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hi, my name is Jenny and I have been painting for over 10 years. I received my degree in Fine Arts from XYZ University and have been selling my work online and at local art galleries ever since. I love working with clients to create one-of-a-kind pieces that capture their vision and style.</p>
+    </section>
+    <section id="gallery">
+      <h2>Gallery</h2>
+      <p>Here is a selection of my previous work. Click on an image to view a larger version.</p>
+      <div class="gallery">
+        <a href="image1.jpg"><img src="thumbnail1.jpg" alt="Landscape painting"></a>
+        <a href="image2.jpg"><img src="thumbnail2.jpg" alt="Portrait painting"></a>
+        <a href="image3.jpg"><img src="thumbnail3.jpg" alt="Still life painting"></a>
+      </div>
+    </section>
+    <section id="custom-paintings">
+      <h2>Custom Paintings</h2>
+      <p>Interested in having a custom painting made just for you? Fill out the form below and I will get back to you with a quote. Please be as specific as possible about your desired size, medium (such as oil, acrylic, or watercolor), and subject matter.</p>
+      <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+        <label for="size">Size:</label>
+        <input type="text" id="size" name="size"><br>
+        <label for="medium">Medium:</label>
+        <input type="text" id="medium" name="medium"><br>
+        <label for="subject">Subject:</label>
